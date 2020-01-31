@@ -1,0 +1,39 @@
+  "headers": {
+    "expires": "Thu, 30 Jan 2020 22:39:54 GMT",
+    "date": "Thu, 30 Jan 2020 22:39:54 GMT",
+    "cache-control": "private, max-age=0, must-revalidate, no-transform",
+    "etag": "\"iPPser6Mov75mJUb_EktR4oB1SI/XPYqQQFxdghLfvMciWiU3WNMlBY\"",
+    "vary": "Origin, X-Origin",
+    "content-type": "application/json; charset=UTF-8",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "content-length": "41778",
+    "server": "GSE",
+    "alt-svc": "quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000",
+    "connection": "close"
+  },
+  "requestHeader": {
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.18.0"
+  }
+  
+  
+  // Short Description for each headers(Request and Response):
+  Expires: The date/time after which the response is considered stale
+  Date: Contains the date and time at which the message was originated
+  Cache-Control: Directives for caching mechanisms in both requests and responses
+  Etag: A unique string identifying the version of the resource
+  Vary: Determines how to match request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server
+  Content-Type The media type of the resource
+  X-Content-Type-Options: Disables MIME sniffing and forces browsers to use the type given in Content-Type
+  X-Frame_Options: Indicates whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>
+  X-XSS-Protection: Enables cross-site scripting filtering
+  Content-Length: The size of the resource in bytes
+  Server: Contains information about the software used by the origin server to handle the request
+  Alt-Svc: Used to list alternate ways to reach this service
+  Connection: Controls whether or not the network connection stays open after the current transaction finishes
+  
+  Accept: Informs the server about the types of data that can be sent back
+  User-Agent: Characteristic string that allows the network protocol peers to identify the application type, OS, software version of the requesting software user agent
+  
